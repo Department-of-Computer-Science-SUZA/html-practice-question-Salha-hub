@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<form action="" method="post">
+  <table border="1">
+    <h2 style="text-align: center;">Pizza shop 2.0</h2>
+    <label for=”name”>Name:</label>
+      <input type=”text” id=”name” name=”name”>
+    <div>
+       Pizza Topping:
+       <br>
+      <input type="radio" name=”topping” value="supreme">Supreme<br>
+      <input type="radio" name=”topping” value="vegetarian">Vegetarian<br>
+      <input type="radio" name=”topping” value="hawaiian">Hawaiian<br>
+    </div>
+      <label for="sauce">Pizza Sauce:</label>
+      <select id="sauce" name="sauce">
+        <option value="tomato">Tomato</option>
+        <option value="chill">Chill</option>
+      </select><br><br>
+      <label for="extras">Optional Extras:</label>
+    <input type="checkbox" id="cheese" name="cheese" value="extraCheese">
+    <label for="cheese">Extra Cheese</label>
+    <input type="checkbox" id="glutenFree" name="glutenFree" value="glutenFreeBase">
+    <label for="glutenFree">Gluten Free Base</label><br><br>
+    <label for="instructions">Delivery Instructions:</label>
+    <textarea id="instructions" name="instructions"></textarea><br><br>
+    <input type="submit" value="Send my Order"><br><br>
+  </table>
+</form>
+</html>
